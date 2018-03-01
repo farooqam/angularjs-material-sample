@@ -12,7 +12,13 @@
           {
               name: 'home',
               url: '/home',
-              template: '<home>'
+              views: {
+                '': {template: '<home></home>'},
+                'about@home': {template: '<about></about>'},
+                'help@home': {template: '<help></help>'},
+                'menu@home': {template: '<menu></menu>', controller: 'menuController'},
+                
+              }          
           }
       ];
 
