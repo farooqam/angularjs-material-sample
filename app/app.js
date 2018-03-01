@@ -16,7 +16,7 @@
                 '': {template: '<home></home>'},
                 'about@home': {template: '<about></about>'},
                 'help@home': {template: '<help></help>'},
-                'menu@home': {template: '<menu></menu>', controller: 'menuController'},
+                'menu@home': {template: '<menu></menu>'},
                 
               }          
           }
